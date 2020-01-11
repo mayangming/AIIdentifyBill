@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/InvoiceCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发票代号"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/InvoiceNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发票号码"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/TaxiNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车牌号"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上下车时间"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/Fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="金额"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/FuelOilSurcharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="燃油附加费"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/TotalFare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实收金额"
+        />
+
+</LinearLayout>

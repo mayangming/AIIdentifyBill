@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乘客姓名"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/starting_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="始发站"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/destination_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="到达站"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/seat_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="席别"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/ticket_rates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车票金额"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/ticket_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车票号"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/seat_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车厢号"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/train_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="车次号"
+        />
+
+</LinearLayout>

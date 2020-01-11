@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/receipt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通用发票"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/quota_invoic_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="定额发票"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/train_receipt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="火车票"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/taxi_receipt_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出租车票"/>
+    </LinearLayout>
+
+        <fragment
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/mobile_navigation"/>
+
+</LinearLayout>

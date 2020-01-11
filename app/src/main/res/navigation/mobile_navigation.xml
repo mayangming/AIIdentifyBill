@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/mobile_navigation"
+    app:startDestination="@id/receiptFragment">
+
+    <fragment
+        android:id="@+id/quotaInvoicFragment"
+        android:name="com.aidiscern.bill.fragment.QuotaInvoiceFragment"
+        android:label="QuotaInvoicFragment" >
+        <argument
+            android:name="recept_data"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/receiptFragment"
+        android:name="com.aidiscern.bill.fragment.ReceiptFragment"
+        android:label="ReceiptFragment" >
+        <argument
+            android:name="recept_data"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/taxiReceiptFragment"
+        android:name="com.aidiscern.bill.fragment.TaxiReceiptFragment"
+        android:label="TaxiReceiptFragment" >
+        <argument
+            android:name="recept_data"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/trainReceiptFragment"
+        android:name="com.aidiscern.bill.fragment.TrainTicketFragment"
+        android:label="TrainReceiptFragment" >
+        <argument
+            android:name="recept_data"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+</navigation>
