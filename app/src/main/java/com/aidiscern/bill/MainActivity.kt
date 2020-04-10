@@ -29,7 +29,7 @@ import java.io.File
 import java.net.URLEncoder
 
 /** AI票据识别 */
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity () {
     private lateinit var navController: NavController
     private var currentStatus = IntentCode.REQUEST_CODE_RECEIPT
     override fun onCreate(savedInstanceState: Bundle?) {
